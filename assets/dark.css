@@ -1,0 +1,149 @@
+.dark {
+    background-color: #f0f8ff; /* Warna biru muda */
+    color: #fff; /* Warna teks putih */
+}
+
+/* Warna teks dalam elemen <pre> */
+.dark pre {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border: none;
+}
+
+/* Warna kode dalam elemen <pre><code> */
+.dark pre code {
+    color: #00bcd4; /* Warna biru muda */
+}
+
+/* Warna tautan di dalam judul */
+.dark h1 a,
+.dark h2 a,
+.dark h3 a,
+.dark h4 a,
+.dark h5 a {
+    color: #00bcd4; /* Warna biru muda */
+}
+
+/* Warna teks dalam elemen <code> dan <strong> */
+.dark code,
+.dark strong {
+    color: #fff; /* Warna teks putih */
+    font-weight: normal; /* Hapus font-weight jika diperlukan */
+}
+
+/* Warna teks dalam tabel */
+.dark table {
+    color: #fff; /* Warna teks putih */
+}
+
+/* Warna border dalam tabel */
+.dark table td,
+.dark table th {
+    border-color: #444;
+}
+
+/* Warna teks dalam kolom pertama dalam tabel */
+.dark table tbody td:first-child {
+    color: #fff; /* Warna teks putih */
+}
+
+/* Warna teks dan border dalam elemen .form-group */
+.dark .form-group label {
+    color: #00bcd4; /* Warna biru muda */
+    border-color: rgba(95, 95, 95, .78);
+}
+
+/* Warna background untuk label form textarea */
+.dark .form-group.form-textarea label:after {
+    background-color: #000;
+}
+
+/* Warna teks dalam input dan textarea */
+.dark .form-control,
+.dark textarea.form-control {
+    color: #fff; /* Warna teks putih */
+    border-color: rgba(95, 95, 95, .78);
+}
+
+/* Warna border saat input mendapatkan fokus */
+.dark .form-control:focus {
+    border-color: #00bcd4; /* Warna biru muda */
+    color: #fff; /* Warna teks putih */
+}
+
+/* Warna border pada elemen .card */
+.dark .card {
+    border-color: rgba(95, 95, 95, .78);
+}
+
+/* Warna header pada elemen .card */
+.dark .card .card-header {
+    background-color: transparent;
+    color: #fff; /* Warna teks putih */
+    border-bottom: 1px solid rgba(95, 95, 95, .78);
+}
+
+/* Warna tombol dengan gaya ghost */
+.dark .btn.btn-ghost.btn-default {
+    border-color: #00bcd4; /* Warna biru muda */
+    color: #00bcd4; /* Warna biru muda */
+}
+
+/* Warna tombol ghost saat mendapatkan fokus atau hover */
+.dark .btn.btn-ghost.btn-default:focus,
+.dark .btn.btn-ghost.btn-default:hover {
+    border-color: #fff; /* Warna teks putih */
+    color: #fff; /* Warna teks putih */
+}
+
+/* Warna tombol ghost untuk berbagai jenis aksi */
+.dark .btn.btn-ghost.btn-primary:focus,
+.dark .btn.btn-ghost.btn-primary:hover {
+    border-color: #00bcd4; /* Warna biru muda */
+    color: #00bcd4; /* Warna biru muda */
+}
+
+.dark .btn.btn-ghost.btn-success:focus,
+.dark .btn.btn-ghost.btn-success:hover {
+    border-color: #81c784; /* Warna hijau muda */
+    color: #81c784; /* Warna hijau muda */
+}
+
+.dark .btn.btn-ghost.btn-info:focus,
+.dark .btn.btn-ghost.btn-info:hover {
+    border-color: #4dd0e1; /* Warna cyan muda */
+    color: #4dd0e1; /* Warna cyan muda */
+}
+
+.dark .btn.btn-ghost.btn-error:focus,
+.dark .btn.btn-ghost.btn-error:hover {
+    border-color: #e57373; /* Warna merah muda */
+    color: #e57373; /* Warna merah muda */
+}
+
+.dark .btn.btn-ghost.btn-warning:focus,
+.dark .btn.btn-ghost.btn-warning:hover {
+    border-color: #ffb74d; /* Warna kuning muda */
+    color: #ffb74d; /* Warna kuning muda */
+}
+
+/* Warna background elemen .avatarholder dan .placeholder */
+.dark .avatarholder,
+.dark .placeholder {
+    background-color: transparent;
+    border-color: #333;
+}
+
+/* Warna teks dan border pada elemen .menu-item */
+.dark .menu .menu-item {
+    color: #fff; /* Warna teks putih */
+    border-color: #ccc; /* Warna border abu-abu */
+}
+
+/* Warna teks dan border saat .menu-item aktif atau hover */
+.dark .menu .menu-item.active,
+.dark .menu .menu-item:hover {
+    color: #00bcd4; /* Warna biru muda */
+    border-color: #00bcd4; /* Warna biru muda */
+}

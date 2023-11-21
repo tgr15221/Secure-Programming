@@ -1,0 +1,166 @@
+.hack {
+    background-color: #ffffff; /* Warna putih */
+    color: #333; /* Warna teks utama */
+    font-family: Arial, sans-serif; /* Ganti font jika diperlukan */
+}
+
+/* Warna teks dalam elemen <pre> */
+.hack pre {
+    color: #333;
+    background-color: #f0f8ff; /* Warna biru muda */
+    padding: 2rem;
+    margin: 1.75rem 0;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+/* Warna kode dalam elemen <pre><code> */
+.hack pre code {
+    color: #00bcd4; /* Warna biru muda */
+    font-weight: 100;
+}
+
+/* Warna tautan */
+.hack a {
+    cursor: pointer;
+    color: #00bcd4; /* Warna biru muda */
+    text-decoration: none;
+    border-bottom: 1px solid #00bcd4; /* Warna biru muda */
+}
+
+.hack a:hover {
+    background-color: #00bcd4; /* Warna biru muda */
+    color: #fff;
+}
+
+/* Ganti warna latar belakang untuk elemen blockquote */
+.hack blockquote {
+    background-color: #f0f8ff; /* Warna biru muda */
+    padding: 1rem;
+    margin: 1.75rem 0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+/* Ganti warna teks kode dalam elemen blockquote */
+.hack blockquote code {
+    color: #00bcd4; /* Warna biru muda */
+    font-weight: 100;
+}
+
+/* Ganti warna latar belakang untuk elemen tabel */
+.hack table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.75rem 0;
+    color: #333; /* Warna teks utama */
+}
+
+/* Ganti warna latar belakang untuk sel dalam tabel */
+.hack table td,
+.hack table th {
+    vertical-align: top;
+    border: 1px solid #ccc;
+    line-height: 15px;
+    padding: 10px;
+}
+
+/* Ganti warna teks pada sel pertama dalam tabel */
+.hack table tbody td:first-child {
+    font-weight: 700;
+    color: #333; /* Warna teks utama */
+}
+
+/* Ganti warna latar belakang untuk elemen .form-group */
+.hack .form-group {
+    margin-bottom: 1.75rem;
+    overflow: auto;
+}
+
+/* Ganti warna label pada elemen .form-group */
+.hack .form-group label {
+    border-bottom: 2px solid #00bcd4; /* Warna biru muda */
+    color: #00bcd4; /* Warna biru muda */
+    width: 10rem;
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+/* Ganti warna teks dalam elemen .form-control */
+.hack .form-control {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: .5rem 0;
+    width: 20rem;
+    height: 38px;
+    background-color: transparent;
+}
+
+/* Ganti warna teks dalam elemen textarea */
+.hack textarea.form-control {
+    height: auto;
+    resize: none;
+    padding: 1rem 0;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    padding: .5rem;
+}
+
+/* Ganti warna latar belakang untuk elemen .btn */
+.hack .btn {
+    background-color: #00bcd4; /* Warna biru muda */
+    color: #fff;
+    border: none;
+    padding: .65rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Ganti warna latar belakang untuk elemen .btn saat dihover */
+.hack .btn:hover {
+    background-color: #0097a7; /* Warna biru muda lebih gelap */
+}
+
+/* Ganti warna latar belakang untuk elemen .alert */
+.hack .alert {
+    padding: 1rem;
+    border: 1px solid #00bcd4; /* Warna biru muda */
+    margin-bottom: 1.75rem;
+    color: #00bcd4; /* Warna biru muda */
+}
+
+/* Ganti warna latar belakang untuk elemen .alert-success */
+.hack .alert-success {
+    color: #4caf50; /* Warna hijau */
+    border-color: #4caf50; /* Warna hijau */
+}
+
+/* Ganti warna latar belakang untuk elemen .alert-error */
+.hack .alert-error {
+    color: #f44336; /* Warna merah */
+    border-color: #f44336; /* Warna merah */
+}
+
+/* Ganti warna latar belakang untuk elemen .alert-info */
+.hack .alert-info {
+    color: #00bcd4; /* Warna biru muda */
+    border-color: #00bcd4; /* Warna biru muda */
+}
+
+/* Ganti warna latar belakang untuk elemen .alert-warning */
+.hack .alert-warning {
+    color: #ff9800; /* Warna oranye */
+    border-color: #ff9800; /* Warna oranye */
+}
+
+/* Ganti warna latar belakang untuk elemen .menu-item saat dihover */
+.hack .menu .menu-item:hover {
+    color: #00bcd4; /* Warna biru muda */
+    border-color: #00bcd4; /* Warna biru muda */
+    background-color: transparent;
+}
