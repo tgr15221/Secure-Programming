@@ -100,6 +100,9 @@
             <br>
             <div class="login-button">
                 <button class="btn btn-primary btn-block btn-ghost" name="register" value="Register">Register</button>
+                <div class="help-block">
+                    Have an account? <a href="index.php">Login here</a>
+                </div>
             </div>
         </form>
     </div>

@@ -106,6 +106,7 @@ nav button:hover {
     </header>
 
     <nav>
+        <button onclick="window.location.href='doctorlist.php'">DoctorLists</button>
         <button onclick="logout()">Logout</button>
     </nav>
 
@@ -115,6 +116,7 @@ nav button:hover {
             <h3>Dr. John Doe</h3>
             <p>Specialty: Cardiology</p>
             <p>Practice Hours: Monday-Friday, 9 AM - 5 PM</p>
+            <button onclick="window.location.href='bookpage.php'">---BOOK---</button>
         </div>
 
         <div class="doctor-card">
@@ -122,6 +124,7 @@ nav button:hover {
             <h3>Dr. Jane Smith</h3>
             <p>Specialty: Pediatrics</p>
             <p>Practice Hours: Monday-Wednesday, 8 AM - 4 PM</p>
+            <button onclick="window.location.href='bookpage.php'">---BOOK---</button>
         </div>
 
         <div class="doctor-card">
@@ -129,17 +132,18 @@ nav button:hover {
             <h3>Dr. Michael Johnson</h3>
             <p>Specialty: Orthopedics</p>
             <p>Practice Hours: Tuesday-Thursday, 10 AM - 6 PM</p>
+            <button onclick="window.location.href='bookpage.php'">---BOOK---</button>
         </div>
     </div>
 
     <div class="footer">
-        Valar Morghulis, ....
+        @drlist XYZHOSPITAL
     </div>
     <script>
         function logout() {
             var confirmLogout = confirm("Are you sure you want to logout?");
             if (confirmLogout) {
-                window.location.href = "login.php";
+                window.location.href = "index.php";
             }
         }
     </script>

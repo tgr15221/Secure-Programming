@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
     if ($result) {
         $_SESSION["success_message"] = "Registration Success";
-        header("Location: ../login.php");
+        header("Location: ../index.php");
     } else {
         $_SESSION["error_message"] = "Registration Failed";
         header("Location: ../register.php");

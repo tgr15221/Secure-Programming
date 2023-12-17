@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 20, 2023 at 05:11 PM
+-- Generation Time: Dec 16, 2023 at 05:19 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -24,6 +24,20 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `patientreport`
+--
+
+CREATE TABLE `patientreport` (
+  `id` int(11) NOT NULL,
+  `numpost` int(11) NOT NULL,
+  `dob` date NOT NULL,
+  `age` int(11) NOT NULL,
+  `messege` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `users`
 --
 
@@ -39,7 +53,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
-(1, 'admin', 'adminoke@email.com', 'admin');
+(1, 'admin', 'adminoke@email.com', 'admin'),
+(0, 'babayo', 'babayo@email.com', 'babayo123'),
+(0, 'rayagg12', 'rayagg12@email.com', 'rayagg12'),
+(0, 'aaaaaa', 'aabb@email.com', 'ffffff'),
+(0, 'adis76', 'adisatriyo@email.com', 'Xfywn~t<;('),
+(0, 'papapap', 'bakmiekodjo@gmail.com', 'ufufufu');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
